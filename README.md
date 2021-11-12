@@ -2,8 +2,9 @@
 Role infomation
 --------------
 
-Role install postgresql cluster vs repmgr
-Support: Centos 7, Postgresql version 96,10,11,12,13
+- Role install postgresql cluster vs repmgr  
+- Support: Centos 7, Postgresql version 96,10,11,12,13  
+- Default var is_master: False set True on master node
 
 Role Variables
 --------------
@@ -45,6 +46,5 @@ Including an example of how to use your role (for instance, with variables passe
       roles:
          - {role: postgresql-repmgr, tags: postgresql-repmgr}
 
-License
--------
+
 
