@@ -3,7 +3,8 @@ Role infomation
 --------------
 
 - Role install postgresql cluster vs repmgr  
-- Support: Centos 7, Postgresql version 96,10,11,12,13  
+- Support: Centos 7, Centos 8, Ubuntu-18.04, Ubuntu-20.04  
+- Version: Postgresql version 9.6,10,11,12,13  
 - Default var is_master: False set True on master node
 
 Role Variables

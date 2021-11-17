@@ -1,0 +1,2 @@
+#!/bin/bash
+su -c "repmgrd --verbose" -s /bin/sh postgres

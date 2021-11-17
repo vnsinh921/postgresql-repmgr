@@ -11,7 +11,7 @@ host    all             all             ::1/128                 ident
 local   replication     all                                     peer
 host    replication     all             127.0.0.1/32            ident
 host    replication     all             ::1/128                 ident
-host    all             all             all                     md5
+#host    all             all             all                     md5
 # Repmgr config
 local   replication     {{ repmgr_user }}                                  trust
 host    replication     {{ repmgr_user }}          127.0.0.1/32            trust
